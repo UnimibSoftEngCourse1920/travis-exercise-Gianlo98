@@ -7,4 +7,4 @@ organization: unimibsoftengcourse1920
 token: null
 secure: $SONAR_TOKEN
 script:
-    - 'mvn sonar:sonar'
+    - 'mvn sonar:sonar -Dsonar.host.url=https://sonarcloud.io'
